@@ -1,0 +1,38 @@
+{
+  "generator-jhipster": {
+    "promptValues": {
+      "packageName": "com.werghemmi.people"
+    },
+    "jhipsterVersion": "6.10.5",
+    "applicationType": "microservice",
+    "baseName": "peopleservice",
+    "packageName": "com.werghemmi.people",
+    "packageFolder": "com/werghemmi/people",
+    "serverPort": "8081",
+    "authenticationType": "jwt",
+    "cacheProvider": "hazelcast",
+    "enableHibernateCache": false,
+    "websocket": false,
+    "databaseType": "sql",
+    "devDatabaseType": "mysql",
+    "prodDatabaseType": "mysql",
+    "searchEngine": false,
+    "messageBroker": false,
+    "serviceDiscoveryType": false,
+    "buildTool": "maven",
+    "enableSwaggerCodegen": false,
+    "jwtSecretKey": "Y2Y0YzgwMmVmM2JlYzFlMmI0N2NjOWVkNmVjZjdkMDRmZWM0MDRkMjA4ZmE2N2JiZmM3NjJiZDA1ZGJkMDhiNzRiMzBkNWJhYjMyOTI1NWUyMmQ3ZGY0OGVjMzU4OGRlNzU5OTAxNWY0N2JjNDY4MTFmNTI2MzdkNzE5MTg0MDc=",
+    "embeddableLaunchScript": false,
+    "creationTimestamp": 1606485197726,
+    "testFrameworks": [],
+    "jhiPrefix": "jhi",
+    "entitySuffix": "",
+    "dtoSuffix": "DTO",
+    "otherModules": [],
+    "enableTranslation": false,
+    "clientPackageManager": "npm",
+    "blueprints": [],
+    "skipClient": true,
+    "skipUserManagement": true
+  }
+}
