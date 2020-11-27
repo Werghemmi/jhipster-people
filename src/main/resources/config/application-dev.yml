@@ -18,8 +18,14 @@ logging:
     ROOT: DEBUG
     io.github.jhipster: DEBUG
     com.werghemmi.people: DEBUG
-
+management:
+  endpoints:
+    web:
+      exposure:
+        include: '*'
 spring:
+  application:
+    name: peopleservice
   profiles:
     active: dev
     include:
