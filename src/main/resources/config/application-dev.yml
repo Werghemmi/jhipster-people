@@ -15,7 +15,7 @@
 
 logging:
   level:
-    ROOT: DEBUG
+    #ROOT: DEBUG
     io.github.jhipster: DEBUG
     com.werghemmi.people: DEBUG
 management:
